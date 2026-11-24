@@ -215,4 +215,81 @@ E.tracks.sales.sub=E.tracks.sales.sub.replace('500 potential','150 potential');
 K.kotra.fit.data='AI로 바이어 리드 150개를 구축하고, LinkedIn 콘텐츠로 1,000+ 클릭을 만든 디지털 마케팅';
 E.kotra.fit.data='Built 150 buyer leads with AI and drove 1,000+ LinkedIn clicks with content';
 K.profile.tools[1].v='Figma · Canva · Photoshop';E.profile.tools[1].v='Figma · Canva · Photoshop';
+})(window.PF);(function(P){
+const K=P.ko,E=P.en;
+K.v2={
+  roleLabel:'지원 직무',
+  roles:{all:'서비스 기획 · 해외마케팅 · 해외영업',pm:'서비스 기획 · PM',sales:'해외영업 · 해외마케팅',data:'데이터 분석 · 디지털 마케팅'},
+  coreLabel:'핵심 경험 5',
+  exps:{
+    kolog:{t:'KOLOG 철도 공동화물 서비스',s:'기획·UI/UX·프론트엔드 · 해커톤 본선'},
+    cvs:{t:'편의점 택배 시장 분석·전략',s:'10년 검색량 분석 · 멘토 우수 평가'},
+    hanji:{t:'한지 FTA 수출 모델 설계',s:'원가 43%↓ · 경진대회 본선'},
+    kotra:{t:'KOTRA 해외 B2B 마케팅',s:'바이어 150개사 · 답신 20건 · 클릭 1,000+'},
+    oy:{t:'올리브영 현장 · 외국인 고객',s:'물류 개선안 채택 · 다국적 고객 응대'}
+  },
+  order:{all:['kolog','cvs','kotra','hanji','oy'],pm:['kolog','cvs','hanji','kotra','oy'],sales:['kotra','oy','hanji','cvs','kolog'],data:['cvs','hanji','kotra','kolog','oy']},
+  sec:{plan:{n:'서비스 기획',tag:'현장의 문제를 서비스 로직과 화면으로 만듭니다'},data:{n:'데이터 분석',tag:'데이터로 기회를 찾고, 판매 전략까지 연결합니다'},global:{n:'글로벌 영업 · 마케팅',tag:'해외 바이어와 외국인 고객을 직접 만났습니다'}},
+  kolog:{meta:'2026 · MOVE AI 2026 해커톤 본선 · 팀 프로젝트',title:'KOLOG',sub:'철도 공동화물 매칭 서비스',one:'소량 화물의 운송비 부담과 철도의 빈 적재공간을 한 번에 해결',role:'본인: 기획 · UI/UX · 프론트엔드',pts:['A01~A20 사용자 흐름 설계','HS코드 · CBM 적재율 등 서비스 로직 정의','React · TypeScript 구현, GitHub 배포'],cmp:[{k:'운송비',v:'−23%',d:'철도 공동 546,000원 vs 도로 단독 712,000원'},{k:'CO₂',v:'−75%',d:'철도 공동 42kg vs 도로 단독 168kg'}],link:'GitHub README →'},
+  oy:{org:'올리브영 스토어 메이트',per:'2023 – 2026 · 누적 10개월',pt:'매장 물류(입고·진열)의 비효율을 찾아 개선안 제안',res:'실제 매장 운영에 채택'},
+  s1:'3C 데이터 분석 능력',s2:'전략적 사고 능력',s3:'피드백',
+  cvs:{title:'편의점 택배 시장 분석 · 성장 전략',meta:'2026.07 · 데이터 분석 부트캠프 · 3인 팀',
+    t1:'데이터 분석으로 판매 기회 발견',c1:[{k:'Customer',v:'명절·파업 때 검색량 급증 → 대체 수요'},{k:'Competitor',v:'점포 수 편의점 3.6만 vs 우체국 3천'},{k:'Company',v:'10년 검색량: 성장 후 성숙기 진입'}],
+    t2:'판매 전략 구성',c2:[{k:'락인',v:'중고거래 앱 연동 원클릭 배송 코드'},{k:'O4O',v:'성수기 택배 접수 시 자사 상품 쿠폰'}],
+    t3:'멘토 우수 평가'},
+  hanji:{title:'한지 FTA 활용 글로벌 B2B 수출 모델',meta:'한국통상정보학회 대학생 경진대회 · 한지 문화재 복원 자재',
+    t1:'시장·경쟁·자사 분석으로 수출 기회 발견',c1:[{k:'Customer',v:'인도 NMM 103곳 · 유럽 도서관·기록원'},{k:'Competitor',v:'경쟁재 가격 비교'},{k:'Company',v:'이탈리아 ICRCPAL 인증 이력 한지'}],
+    t2:'FTA 활용 수출 전략 구성',c2:[{k:'FTA',v:'베트남산 닥나무 수입 → 국내 가공 → CEPA·EU FTA'},{k:'원가',v:'혼합 원료로 롤당 제조원가 43%↓ (시뮬레이션)'}],
+    t3:'경진대회 본선 진출'},
+  kotra:{title:'KOTRA AI 무역인재 양성사업',sub:'글로벌 B2B 마케팅',meta:'2026.04 – 05 · 8주 수료 · 뷰티 / 건강기능 식음료',flow:['바이어 발굴','콘텐츠 제작','아웃바운드'],kpis:[{v:'150',u:'개사',l:'바이어 후보 발굴'},{v:'20',u:'건',l:'콜드메일 답신 (약 500건 발송)'},{v:'1,000+',u:'',l:'LinkedIn 콘텐츠 클릭'}],pts:['AI로 미국 등 주요 시장 바이어 스크리닝','Gemini · Canva · Photoshop으로 영상·카드뉴스 제작','콜드메일 + LinkedIn 캠페인 직접 운영']},
+  sparks:{org:'서울 스파크스 2기 멘토',per:'2025.06 – 08',pt:'외국인 고교생 20명에게 한국어·한국사를 영어로 수업',res:'8/20명 재방문 (40%)'},
+  oyg:{org:'올리브영 외국인 고객 응대',per:'2023 – 2026',pt:'국적·쇼핑 성향에 맞춘 제품 제안으로 담당 제품 판매 기여',res:'다국적 고객 셀링'},
+  pillOrder:{all:['dom','data','glob'],pm:['dom','data','glob'],sales:['glob','data','dom'],data:['data','glob','dom']},
+  pills:{dom:{t:'고객·도메인 이해',s:'현장 문제를 서비스 요구사항으로',p:'KOLOG · 올리브영'},data:{t:'데이터 분석',s:'데이터로 기회를 찾고 전략까지',p:'편의점 택배 · 한지 FTA'},glob:{t:'글로벌 실행',s:'바이어 발굴부터 캠페인까지',p:'KOTRA · 서울 스파크스'}},
+  visionTitle:'비전'
+};
+E.v2={
+  roleLabel:'Target role',
+  roles:{all:'Service Planning · Global Marketing · Global Sales',pm:'Service Planning · PM',sales:'Global Sales · Global Marketing',data:'Data Analysis · Digital Marketing'},
+  coreLabel:'5 core experiences',
+  exps:{
+    kolog:{t:'KOLOG rail freight service',s:'Planning · UI/UX · Front-end · Hackathon finalist'},
+    cvs:{t:'CVS parcel market analysis',s:'10 years of search data · Mentor top rating'},
+    hanji:{t:'Hanji FTA export model',s:'43% lower unit cost · Contest finalist'},
+    kotra:{t:'KOTRA global B2B marketing',s:'150 buyers · 20 replies · 1,000+ clicks'},
+    oy:{t:'Olive Young · global customers',s:'Logistics fix adopted · Multinational service'}
+  },
+  order:K.v2.order,
+  sec:{plan:{n:'Service Planning',tag:'Turning field problems into service logic and screens'},data:{n:'Data Analysis',tag:'Finding opportunities in data and building the sales strategy'},global:{n:'Global Sales · Marketing',tag:'Meeting overseas buyers and international customers first-hand'}},
+  kolog:{meta:'2026 · MOVE AI 2026 Hackathon finalist · Team project',title:'KOLOG',sub:'Rail shared-freight matching',one:'Solves small-load shipping cost and empty rail cargo space at once',role:'My role: Planning · UI/UX · Front-end',pts:['Designed user flows A01–A20','Defined service logic: HS code · CBM load factor','Built in React · TypeScript, deployed on GitHub'],cmp:[{k:'Cost',v:'−23%',d:'Shared rail ₩546,000 vs solo road ₩712,000'},{k:'CO₂',v:'−75%',d:'Shared rail 42kg vs solo road 168kg'}],link:'GitHub README →'},
+  oy:{org:'Olive Young · Store Mate',per:'2023 – 2026 · 10 months total',pt:'Spotted inefficiencies in store logistics (receiving · shelving) and proposed a fix',res:'Adopted in store operations'},
+  s1:'3C data analysis',s2:'Strategic thinking',s3:'Feedback',
+  cvs:{title:'CVS parcel market analysis · growth strategy',meta:'2026.07 · Data analysis bootcamp · Team of 3',
+    t1:'Found the sales opportunity through data',c1:[{k:'Customer',v:'Search spikes on holidays & strikes → substitute demand'},{k:'Competitor',v:'Stores: CVS 36K vs post offices 3K'},{k:'Company',v:'10-yr search data: growth, then maturity'}],
+    t2:'Built the sales strategy',c2:[{k:'Lock-in',v:'One-click shipping code in resale apps'},{k:'O4O',v:'Own-product coupons at peak-season drop-off'}],
+    t3:'Mentor top rating'},
+  hanji:{title:'Hanji FTA-based global B2B export model',meta:'Korea Trade Information Society univ. contest · Hanji for heritage restoration',
+    t1:'Found the export opportunity via market, rival and own-product analysis',c1:[{k:'Customer',v:'India NMM 103 sites · EU libraries & archives'},{k:'Competitor',v:'Competing materials price comparison'},{k:'Company',v:'Hanji with Italian ICRCPAL track record'}],
+    t2:'Built the FTA export strategy',c2:[{k:'FTA',v:'Import Vietnam mulberry → process in Korea → CEPA · EU FTA'},{k:'Cost',v:'Blended fiber cuts unit cost 43% (simulation)'}],
+    t3:'Contest finalist'},
+  kotra:{title:'KOTRA AI Trade Talent Program',sub:'Global B2B marketing',meta:'2026.04 – 05 · 8 weeks · Beauty / Health food & beverage',flow:['Buyer sourcing','Content','Outbound'],kpis:[{v:'150',u:'',l:'Buyer candidates sourced'},{v:'20',u:'',l:'Cold-email replies (~500 sent)'},{v:'1,000+',u:'',l:'LinkedIn content clicks'}],pts:['Screened US & key-market buyers with AI','Made videos & card news with Gemini · Canva · Photoshop','Ran cold-email + LinkedIn campaigns myself']},
+  sparks:{org:'Seoul Sparks · Mentor',per:'2025.06 – 08',pt:'Taught Korean language & history in English to 20 international students',res:'8 of 20 returned (40%)'},
+  oyg:{org:'Olive Young · international customers',per:'2023 – 2026',pt:'Matched products to each customer’s nationality and shopping style',res:'Multinational selling'},
+  pillOrder:K.v2.pillOrder,
+  pills:{dom:{t:'Customer & domain insight',s:'Field problems into service requirements',p:'KOLOG · Olive Young'},data:{t:'Data analysis',s:'Opportunities in data, down to strategy',p:'CVS parcel · Hanji FTA'},glob:{t:'Global execution',s:'From buyer sourcing to campaigns',p:'KOTRA · Seoul Sparks'}},
+  visionTitle:'Vision'
+};
+})(window.PF);
+(function(P){
+const K=P.ko,E=P.en;
+K.tracks.scm={label:'SCM · SUPPLY CHAIN',headline:'물류 현장의 비효율을 찾고, 데이터와 서비스로 공급망을 개선합니다.',sub:''};
+E.tracks.scm={label:'SCM · SUPPLY CHAIN',headline:'I find inefficiencies in logistics and improve supply chains with data and services.',sub:''};
+K.vision.scm='물류 현장의 문제를 데이터로 진단하고, 무역·운송 지식으로 비용과 시간을 줄이는 SCM 인재로 성장하겠습니다.';
+E.vision.scm='I will grow into an SCM professional who diagnoses logistics problems with data and cuts cost and lead time with trade and transport knowledge.';
+K.v2.roles.all='서비스 기획 · 해외마케팅 · 해외영업 · SCM';
+E.v2.roles.all='Service Planning · Global Marketing · Global Sales · SCM';
+K.v2.roles.scm='SCM · 물류 · 서비스 기획';
+E.v2.roles.scm='SCM · Logistics · Service Planning';
+K.v2.order.scm=['kolog','hanji','oy','cvs','kotra'];
+K.v2.pillOrder.scm=['dom','data','glob'];
 })(window.PF);
