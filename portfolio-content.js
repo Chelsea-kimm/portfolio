@@ -2,7 +2,7 @@ window.PF = {
 ko: {
   name: '김채은', nameEn: 'Kim Chaeeun', docLabel: 'PORTFOLIO',
   tags: ['Trade', 'Logistics', 'Data', 'Digital Marketing'],
-  contact: { phone: '010-7365-5091', email: 'harty1227@naver.com', github: 'github.com/525tea' },
+  contact: { phone: '010-7365-5091', email: 'chaelxea@gmail.com', github: 'github.com/525tea' },
   tracks: {
     all: { label: 'GLOBAL BUSINESS & DATA', headline: '무역·물류 도메인을 이해하고, 데이터와 기술로 문제를 해결합니다.', sub: '국제통상학 전공을 바탕으로 글로벌 시장 분석, B2B 바이어 발굴, 서비스 기획, 데이터 분석 프로젝트를 수행했습니다. 시장의 문제를 분석하고 실행 가능한 전략과 결과물로 연결합니다.' },
     pm: { label: 'SERVICE PLANNING · PM', headline: '현장의 문제를 요구사항으로, 요구사항을 화면으로 만듭니다.', sub: '물류 현장의 비효율을 서비스 로직으로 정의하고, 사용자 흐름 설계부터 프론트엔드 구현까지 직접 수행했습니다. 데이터로 기회를 찾고 실행 가능한 기획으로 연결합니다.' },
@@ -79,7 +79,7 @@ ko: {
 en: {
   name: 'Kim Chaeeun', nameEn: '김채은', docLabel: 'PORTFOLIO',
   tags: ['Trade', 'Logistics', 'Data', 'Digital Marketing'],
-  contact: { phone: '+82 10-7365-5091', email: 'harty1227@naver.com', github: 'github.com/525tea' },
+  contact: { phone: '+82 10-7365-5091', email: 'chaelxea@gmail.com', github: 'github.com/525tea' },
   tracks: {
     all: { label: 'GLOBAL BUSINESS & DATA', headline: 'I understand trade and logistics, and solve its problems with data and technology.', sub: 'With a background in International Trade, I have worked on global market analysis, B2B buyer sourcing, service planning and data analysis — turning market problems into actionable strategies and real outputs.' },
     pm: { label: 'SERVICE PLANNING · PM', headline: 'I turn field problems into requirements, and requirements into screens.', sub: 'I defined logistics inefficiencies as service logic and personally delivered everything from user-flow design to front-end build. I find opportunities in data and translate them into executable plans.' },
